@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+html{
+    background-color: #222;
+    color: #fff;
+}
+.contaier {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px 200px;
+  gap: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.header ul li {
+  display: inline-block;
+  padding: 10px;
+
+}
+.home{
+    border-left: 2px #5ec93d solid;
+
+}
+.header ul li:hover{
+     font-size: 20px;
+}
+.contact {
+width: 500px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5%;
+padding: 15px;
+}
+img{
+    clip-path: circle(50%);
+    margin-top: 10px;
+}
+.info p{
+    color: #5ec93d;
+    margin-left: 8%;
+}
+.skills {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(5, 90px);
+  gap: 20px;
+  margin-left: 10%;
+}
+h6{
+    color: #5ec93d;
+}
+h1 span{
+    color: #5ec93d;
+}
+.skills img {
+  width: 20px;
+  margin-right: 15%;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.ski1 {
+  font-weight: bold;
+  color: #5ec93d;
+  font-size: 35px;
+  display: inline-block;
+  border-top: 3px solid #9d8c76;
+  border-left: 3px solid #9d8c76;
+  border-radius: 5px;
+  padding: 5px;
+
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  transition: all 1s;
+}
+.ski1:hover {
+  letter-spacing: 3px;
+}
+
+.myskills {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.computer {
+  font-size: 50px !important;
+  font-weight: 100px;
+  text-align: center;
+  color: rgb(28, 235, 28);
+
+}
+
+.card-prog {
+  margin: 10px;
+  padding: 20px;
+  width: 25%;
+  box-shadow: 5px 5px 10px 0 #e4e0db;
+
+
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.para-star span i {
+  color: rgb(28, 235, 28);
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.card-prog:hover {
+  box-shadow: 0 0px 32px 0 #9d8c76;
+}
+
+.edcation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+  margin-left: 10%;
+  height: 400px;
+}
+
+/* Fifth section */
+
+.column-2a {
+  margin: 0;
+  padding: 0;
+  width: 45%;
+}
+footer {
+    width: 100%;
+    height: 120px;
+    color: rgb(255, 255, 255);
+  }
+  .footer {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 20px;
+    text-transform: capitalize;
+  }
